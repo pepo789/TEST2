@@ -38,6 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/dinamicarrays.o \
 	${OBJECTDIR}/functs.o \
 	${OBJECTDIR}/newmain.o \
+	${OBJECTDIR}/rescalc.o \
 	${OBJECTDIR}/statemachine.o
 
 
@@ -79,6 +80,11 @@ ${OBJECTDIR}/newmain.o: newmain.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/newmain.o newmain.c
+
+${OBJECTDIR}/rescalc.o: rescalc.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/rescalc.o rescalc.c
 
 ${OBJECTDIR}/statemachine.o: statemachine.c 
 	${MKDIR} -p ${OBJECTDIR}

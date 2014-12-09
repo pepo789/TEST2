@@ -16,6 +16,7 @@
       <itemPath>dinamicarrays.c</itemPath>
       <itemPath>functs.c</itemPath>
       <itemPath>newmain.c</itemPath>
+      <itemPath>rescalc.c</itemPath>
       <itemPath>statemachine.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -53,6 +54,7 @@
             <linkerOptionItem>`pkg-config --libs allegro_physfs-5.0`</linkerOptionItem>
             <linkerOptionItem>`pkg-config --libs allegro_primitives-5.0`</linkerOptionItem>
             <linkerOptionItem>`pkg-config --libs allegro_ttf-5.0`</linkerOptionItem>
+            <linkerLibStdlibItem>Mathematics</linkerLibStdlibItem>
           </linkerLibItems>
         </linkerTool>
       </compileType>
@@ -61,6 +63,8 @@
       <item path="functs.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="newmain.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rescalc.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="statemachine.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -92,6 +96,8 @@
       <item path="functs.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="newmain.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rescalc.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="statemachine.c" ex="false" tool="0" flavor2="0">
       </item>

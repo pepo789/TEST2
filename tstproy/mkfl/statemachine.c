@@ -89,16 +89,12 @@ STATE estado_ROT[]=
 	{CLICK,estado_S,SelectRes},
         {ALLEGRO_KEY_L,estado_1,do_nothing},
         {ALLEGRO_KEY_R,estado_01,do_nothing},
-        {ALLEGRO_KEY_C,estado_Z,do_nothing},
         {QU,estado_S,do_nothing},
 };
 
  STATE estado_Z[]=
 {
         {ALLEGRO_KEY_C,estado_Z,Calculate},
-        {ALLEGRO_KEY_L,estado_1,do_nothing},
-        {ALLEGRO_KEY_R,estado_01,do_nothing},
-        {ALLEGRO_KEY_S,estado_S,do_nothing},
         {QU,estado_Z,do_nothing},
  };
  
